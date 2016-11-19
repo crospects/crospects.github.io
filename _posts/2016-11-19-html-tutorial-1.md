@@ -25,7 +25,7 @@ Ok, now for the fun stuff. Inside your `index.html` file, add the following to y
 
 The HTML language uses tags, wich is basically a fancy way of saying that everything follows this basic syntax:
 
-```html
+``` html
 <tagname>
     Tag Content
 </tagname>
