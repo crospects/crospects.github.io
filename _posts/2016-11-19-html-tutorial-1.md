@@ -34,6 +34,7 @@ There are tons of different tags, and each does something different, but for now
 The `<!doctype>` tag tells the browser what type of document this is. In our hase it is `<!doctype html>`. You need to have this at the beginning of every HTML document you make, or the browser won't understand what language you're writing in.
 
 Next, the `<html>` tag tells the browser that you're starting to write in HTML, everything within this tag will be rendered as HTML. We also tell the browser that we're wrighting in English, with `<html lang="en">`. Now we can start adding in some cool content:
+
 ``` html
 <!doctype html>
 <html lang="en">
@@ -45,7 +46,9 @@ Next, the `<html>` tag tells the browser that you're starting to write in HTML, 
     </body>
 </html>
 ```
+
 Ok, now we've added in a `<head>` tag and a `<body>` tag. The `<head>` tag has all the meta-data, everything that's not shown, but that the browser needs to know, like the pages title. The `<body>` tag has everything that you want to show on the website. Now, let's add a title to our website:
+
 ``` html
 <!doctype html>
 <html lang="en">
@@ -59,12 +62,14 @@ Ok, now we've added in a `<head>` tag and a `<body>` tag. The `<head>` tag has a
     </body>
 </html>
 ```
+
 What we just added is pretty simple. We told the browser that the title of our website is My Awesome Website. You should see this pop up on the tap name in Chrome, using live preview. 
 > Hint: You can just keep Live Preview running while you work, and it will automatically show the site updated as you work! If you accidentally closed it, just click the lightning bolt icon in the top-right corner again to re-launch it.
 
 Now that you know how to title the website, try adding your own cool title to it.
 
-Ok, let's start adding some content to our website. In HTML if you put text somewhere without a tag around it, it will be rendered as plain text. So just add your own text to the `<body>` of the website
+Ok, let's start adding some content to our website. In HTML if you put text somewhere without a tag around it, it will be rendered as plain text. So just add your own text to the `<body>` of the website:
+
 ``` html
 <!doctype html>
 <html lang="en">
@@ -78,6 +83,7 @@ Ok, let's start adding some content to our website. In HTML if you put text some
     </body>
 </html>
 ```
+
 You could do this, but it usually a better idea to use a `<p>` tag, wich is short for paragraph. This way, their will automatically be spaces between `<p>` tags.
 
 ``` html
@@ -95,6 +101,7 @@ You could do this, but it usually a better idea to use a `<p>` tag, wich is shor
     </body>
 </html>
 ```
+
 Try out adding your own content to your website, using `<p>` tags. Now, if you want to add a title, or just some larger text, you can use a header tag. Their are six types of header tags, ragning from `<h1>`, the largest to `<h6>`, the smallest. Using this scale, you have a lot of options as to wich size to use. Try it out for yourself
 
 ``` html

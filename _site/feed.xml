@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-19T10:44:42-08:00</updated><id>http://localhost:4000//</id><title type="html">Kronsky Inc.</title><subtitle>Kronsky Inc. Official Website 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-19T10:47:47-08:00</updated><id>http://localhost:4000//</id><title type="html">Kronsky Inc.</title><subtitle>Kronsky Inc. Official Website 
 </subtitle><entry><title type="html">HTML Tutorial 1: Getting Started</title><link href="http://localhost:4000/2016/11/19/html-tutorial-1.html" rel="alternate" type="text/html" title="HTML Tutorial 1: Getting Started" /><published>2016-11-19T09:00:00-08:00</published><updated>2016-11-19T09:00:00-08:00</updated><id>http://localhost:4000/2016/11/19/html-tutorial-1</id><content type="html" xml:base="http://localhost:4000/2016/11/19/html-tutorial-1.html">&lt;p&gt;So, you want to learn HTML. Maybe you want to make an awesome website, chat app, or just progress your programming skills to the next level. Either way, you’ve come to the right place.&lt;/p&gt;
 
 &lt;p&gt;In order to get started programming, you’ll need something to write your code in. For this, you need a plain text editor. You could use a program like TextEdit on Mac or Notepad on Windows, but I preffer to use an application called &lt;a href=&quot;http://brackets.io&quot;&gt;Brackets&lt;/a&gt;.&lt;/p&gt;
@@ -29,6 +29,7 @@
 &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!doctype&amp;gt;&lt;/code&gt; tag tells the browser what type of document this is. In our hase it is &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/code&gt;. You need to have this at the beginning of every HTML document you make, or the browser won’t understand what language you’re writing in.&lt;/p&gt;
 
 &lt;p&gt;Next, the &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;&lt;/code&gt; tag tells the browser that you’re starting to write in HTML, everything within this tag will be rendered as HTML. We also tell the browser that we’re wrighting in English, with &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;. Now we can start adding in some cool content:&lt;/p&gt;
+
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
@@ -40,7 +41,9 @@
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
 &lt;p&gt;Ok, now we’ve added in a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag and a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag. The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; tag has all the meta-data, everything that’s not shown, but that the browser needs to know, like the pages title. The &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag has everything that you want to show on the website. Now, let’s add a title to our website:&lt;/p&gt;
+
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
@@ -54,6 +57,7 @@
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
 &lt;p&gt;What we just added is pretty simple. We told the browser that the title of our website is My Awesome Website. You should see this pop up on the tap name in Chrome, using live preview.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Hint: You can just keep Live Preview running while you work, and it will automatically show the site updated as you work! If you accidentally closed it, just click the lightning bolt icon in the top-right corner again to re-launch it.&lt;/p&gt;
@@ -61,7 +65,8 @@
 
 &lt;p&gt;Now that you know how to title the website, try adding your own cool title to it.&lt;/p&gt;
 
-&lt;p&gt;Ok, let’s start adding some content to our website. In HTML if you put text somewhere without a tag around it, it will be rendered as plain text. So just add your own text to the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; of the website&lt;/p&gt;
+&lt;p&gt;Ok, let’s start adding some content to our website. In HTML if you put text somewhere without a tag around it, it will be rendered as plain text. So just add your own text to the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; of the website:&lt;/p&gt;
+
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
@@ -75,6 +80,7 @@
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
 &lt;p&gt;You could do this, but it usually a better idea to use a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tag, wich is short for paragraph. This way, their will automatically be spaces between &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
@@ -92,6 +98,7 @@
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+
 &lt;p&gt;Try out adding your own content to your website, using &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags. Now, if you want to add a title, or just some larger text, you can use a header tag. Their are six types of header tags, ragning from &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;, the largest to &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h6&amp;gt;&lt;/code&gt;, the smallest. Using this scale, you have a lot of options as to wich size to use. Try it out for yourself&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
