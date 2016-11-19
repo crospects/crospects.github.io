@@ -22,6 +22,7 @@ Ok, now for the fun stuff. Inside your `index.html` file, add the following to y
 <html lang="en">
 
 </html>```
+
 The HTML language uses tags, wich is basically a fancy way of saying that everything follows this basic syntax:
 
 ```html
