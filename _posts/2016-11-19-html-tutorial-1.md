@@ -17,7 +17,7 @@ Next, open up the folder in Brackets, or a text editor of your choice, and creat
 Now, click the lightning bolt icon in Brackets to launch live preview mode (You will need chrome installed for this to work), a blank white page should open up in Chrome. Congratulations, you have a (really borring) website!
 
 Ok, now for the fun stuff. Inside your `index.html` file, add the following to your site:
-```html
+``` html
 <!doctype html>
 <html lang="en">
 
