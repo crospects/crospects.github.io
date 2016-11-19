@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML Tutorial 1: Getting Started</title>
+  <meta name="description" content="So, you want to learn HTML. Maybe you want to make an awesome website, chat app, or just progress your programming skills to the next level. Either way, you’...">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2016/11/19/html-tutorial-1.html">
+  <link rel="alternate" type="application/rss+xml" title="Kronsky Inc." href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Kronsky Inc.</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/projects/">Projects</a>
+          
+        
+          
+          <a class="page-link" href="/tutorials/">Tutorials</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">HTML Tutorial 1: Getting Started</h1>
+  </header>
+
+  <div class="post-content">
+    <p>So, you want to learn HTML. Maybe you want to make an awesome website, chat app, or just progress your programming skills to the next level. Either way, you’ve come to the right place.</p>
+
+<p>In order to get started programming, you’ll need something to write your code in. For this, you need a plain text editor. You could use a program like TextEdit on Mac or Notepad on Windows, but I preffer to use an application called <a href="http://brackets.io">Brackets</a>.</p>
+
+<p>Brackets will automatically highlight your code to make it easier to read, and will give you suggestions on what to type, wich greatly speeds up development.</p>
+
+<p>The first thing you’ll need to do is create a folder on your computer. This is where all of your HTML will be stored. Call it <code class="highlighter-rouge">My Awesome Website</code>.</p>
+
+<p>Next, open up the folder in Brackets, or a text editor of your choice, and create a new file (<code class="highlighter-rouge">cmnd + N</code> on a Mac, <code class="highlighter-rouge">cntrl + N</code> on a PC) and title it <code class="highlighter-rouge">index.html</code>. This tells the computer that this is the “index” file, wich will be the file that is rendered first when you open the website. Think of it as the homepage. You allways need an <code class="highlighter-rouge">index.html</code> file in any website you make, or it won’t work.</p>
+
+<p>Now, click the lightning bolt icon in Brackets to launch live preview mode (You will need chrome installed for this to work), a blank white page should open up in Chrome. Congratulations, you have a (really borring) website!</p>
+
+<p>Ok, now for the fun stuff. Inside your <code class="highlighter-rouge">index.html</code> file, add the following to your site:</p>
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+<p>HTML uses tags, wich is basically a fancy way of saying that everything follows this basic syntax:</p>
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;tagname&gt;</span>
+    Tag Content
+<span class="nt">&lt;/tagname&gt;</span>
+</code></pre>
+</div>
+<p>There are tons of different tags, and each does something different, but for now, lets go over the tags you just learned.</p>
+
+<p>The <code class="highlighter-rouge">&lt;!doctype&gt;</code> tag tells the browser what type of document this is. In our hase it is <code class="highlighter-rouge">&lt;!doctype html&gt;</code>. You need to have this at the beginning of every HTML document you make, or the browser won’t understand what language you’re writing in.</p>
+
+<p>Next, the <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> tag tells the browser that you’re starting to write in HTML, everything within this tag will be rendered as HTML. We also tell the browser that we’re wrighting in English, with <code class="highlighter-rouge"><span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span></code>. Now we can start adding in some cool content:</p>
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+<p>Ok, now we’ve added in a <code class="highlighter-rouge">&lt;head&gt;</code> tag and a <code class="highlighter-rouge">&lt;body&gt;</code> tag. The <code class="highlighter-rouge">&lt;head&gt;</code> tag has all the meta-data, everything that’s not shown, but that the browser needs to know, like the pages title. The <code class="highlighter-rouge">&lt;body&gt;</code> tag has everything that you want to show on the website. Now, let’s add a title to our website:</p>
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>
+            My Awesome Website
+        <span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+<p>What we just added is pretty simple. We told the browser that the title of our website is My Awesome Website. You should see this pop up on the tap name in Chrome, using live preview.</p>
+<blockquote>
+  <p>Hint: You can just keep Live Preview running while you work, and it will automatically show the site updated as you work! If you accidentally closed it, just click the lightning bolt icon in the top-right corner again to re-launch it.</p>
+</blockquote>
+
+<p>Now that you know how to title the website, try adding your own cool title to it.</p>
+
+<p>Ok, let’s start adding some content to our website. In HTML if you put text somewhere without a tag around it, it will be rendered as plain text. So just add your own text to the <code class="highlighter-rouge">&lt;body&gt;</code> of the website</p>
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>
+            My Awesome Website
+        <span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        I am learning HTML!
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+<p>You could do this, but it usually a better idea to use a <code class="highlighter-rouge">&lt;p&gt;</code> tag, wich is short for paragraph. This way, their will automatically be spaces between <code class="highlighter-rouge">&lt;p&gt;</code> tags.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>
+            My Awesome Website
+        <span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;p&gt;</span>Paragraph 1<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;</span>Paragraph 2<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;</span>Paragraph 3<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+<p>Try out adding your own content to your website, using <code class="highlighter-rouge">&lt;p&gt;</code> tags. Now, if you want to add a title, or just some larger text, you can use a header tag. Their are six types of header tags, ragning from <code class="highlighter-rouge">&lt;h1&gt;</code>, the largest to <code class="highlighter-rouge">&lt;h6&gt;</code>, the smallest. Using this scale, you have a lot of options as to wich size to use. Try it out for yourself</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>
+            My Awesome Website
+        <span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;h1&gt;</span>Header size 1<span class="nt">&lt;/h1&gt;</span>
+        <span class="nt">&lt;h2&gt;</span>Header 2<span class="nt">&lt;/h2&gt;</span>
+        <span class="nt">&lt;h3&gt;</span>Header 3<span class="nt">&lt;/h3&gt;</span>
+        <span class="nt">&lt;h4&gt;</span>Header 4<span class="nt">&lt;/h4&gt;</span>
+        <span class="nt">&lt;h5&gt;</span>Header 5<span class="nt">&lt;/h5&gt;</span>
+        <span class="nt">&lt;h6&gt;</span>Header 6<span class="nt">&lt;/h6&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+<p>Try this out, and check out how the different header sizes look. Now let’s move on to lists. Lists are slightly more complicated. First you need to put the list in either an unordered list <code class="highlighter-rouge">&lt;ul&gt;</code> or ordered list <code class="highlighter-rouge">&lt;ol&gt;</code>. Then you put each item in the list in a list item tag <code class="highlighter-rouge">&lt;li&gt;</code>.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;title&gt;</span>
+            My Awesome Website
+        <span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;ul&gt;</span>
+            <span class="nt">&lt;li&gt;</span>List item 1 (un ordered list)<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>List item 2<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+        
+        <span class="nt">&lt;ol&gt;</span>
+            <span class="nt">&lt;li&gt;</span>List item 1 (ordered list)<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>List item 2<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ol&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+<p>Now all you need to do is mix and match these tags to make your own website. In the next tutorial,  I will show you how to add tables, and a littles styling. If you want more information, I recommend checking out <a href="http://stackoverflow.com">Stack Overflow</a>, a community of programmers, where you can ask questions, and talk to expert developers. You can also email me if you have any questions.</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Kronsky Inc.</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Kronsky Inc.
+            
+            </li>
+            
+            <li><a href="mailto:kronskydev@fastmail.com">kronskydev@fastmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/crospects"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">crospects</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Kronsky Inc. Official Website 
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
